@@ -1,0 +1,55 @@
+.app {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .chess-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .board-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .controls {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .controls button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0055ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #003bbd;
+  }
+  
+  .move-history {
+    width: 200px;
+    text-align: left;
+  }
+  
+  .dark {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .light {
+    background-color: white;
+    color: black;
+  }
+  
